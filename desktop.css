@@ -1,21 +1,28 @@
-@media only screen and (min-width: 1141px) {
-body{
-    background-color: red;
+@media only screen and (min-width: 900px) {
+.container{
+  width: 900px;
+  margin: auto;
+  border: 2px solid #BF5F17;
+  padding: 10px;
 }
 /* Header */
-header{
-  width: 1140px;
-  margin: auto;
-}
+
 /* Main Content */
-main{
-  width: 1140px;
-  margin: auto;
+.icons{
+  width: 90%;
+  margin-left: 12%;
+}
+.iconHolder{
+  width: 7em;
+}
+.iconImg{
+  height: 65px;
+}
+.iconHolder img{
+  position: relative;
+  width: 60%;
+  top: 0%;
 }
 /* Footer */
-footer{
-  width: 1140px;
-  margin: auto;
-}
 
 }

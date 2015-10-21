@@ -1,11 +1,34 @@
 @media only screen and (max-width: 999em) {
 body{
-  font-family: arial;
-  overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color: #EBEAE0;
+  padding: 0 0 30px 0;
+}
+i{
+  font-style: italic;
+}
+a:link, a:visited, a:hover, a:active {
+	color: #000;
+	text-decoration: none;
 }
 /* Header */
 header{
   text-align: center;
+}
+header h1{
+  max-width: 100%;
+  background-color: #BF5F17;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 10px 0;
+  top: 0px;
+}
+header img{
+  display: none;
 }
 /* Main Content */
 article{
@@ -16,13 +39,16 @@ article{
 section{
   width: 100%;
   float: left;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid #686462;
   margin-bottom: 3%;
+  position: relative;
 }
 
 section h2{
+  font-family: 'Roboto Slab', serif;
   font-weight: bold;
   text-align: center;
+  padding: 15px 0;
   clear: both;
 }
   /* Basic Article Styling */
@@ -38,6 +64,7 @@ section h2{
   background-color: grey;
   float: right;
   font-weight: lighter;
+  transition: all 0.5s ease;
 }
 .basic img{
   width: 15%;
@@ -57,23 +84,32 @@ section h2{
 }
 .iconHolder img{
   width: 3em;
-  margin-left: 30%;
+  margin-left: 25%;
 }
 .iconHolder img, .iconHolder h3, .iconHolder h4{
+  font-weight: bold;
   margin-top: .2em;
   margin-bottom: .2em;
   text-align: center;
   display: block;
 }
+.iconHolder h4{
+  color: #BF5F17;
+}
 /* Footer */
 footer{
   text-align: center;
   font-size: .8em;
-  padding: 2em 0;
+  padding-top: 2em;
   clear: both;
 }
 footer img{
   width: 50%;
+  padding-bottom: 1em;
+}
+/* Animations */
+.fromRight{
+  transform: rotateY(90deg);
 }
 
 }

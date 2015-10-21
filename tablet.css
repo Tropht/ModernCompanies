@@ -1,6 +1,26 @@
-@media only screen and (min-width: 551px) and (max-width: 1141px) {
+@media only screen and (min-width: 551px) and (max-width: 999em) {
 body{
-    background-color: blue;
+  padding: 30px 0;
+}
+/* Header */
+header img{
+  width: 100%;
+  display: block;
+}
+header h1{
+  display: none;
+}
+/* Main Content */
+section h2{
+  font-size: 1.3em;
+}
+.numberPics{
+  width: 8% !important;
+  margin-left: 4%;
+}
+/* Footer */
+footer img{
+  width: 300px;
 }
 
 }
