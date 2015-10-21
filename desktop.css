@@ -1,0 +1,21 @@
+@media only screen and (min-width: 1141px) {
+body{
+    background-color: red;
+}
+/* Header */
+header{
+  width: 1140px;
+  margin: auto;
+}
+/* Main Content */
+main{
+  width: 1140px;
+  margin: auto;
+}
+/* Footer */
+footer{
+  width: 1140px;
+  margin: auto;
+}
+
+}

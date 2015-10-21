@@ -1,0 +1,79 @@
+@media only screen and (max-width: 999em) {
+body{
+  font-family: arial;
+  overflow-x: hidden;
+}
+/* Header */
+header{
+  text-align: center;
+}
+/* Main Content */
+article{
+  margin: 10px auto;
+  float: left;
+  margin-left: 2%;
+}
+section{
+  width: 100%;
+  float: left;
+  border-bottom: 1px solid black;
+  margin-bottom: 3%;
+}
+
+section h2{
+  font-weight: bold;
+  text-align: center;
+  clear: both;
+}
+  /* Basic Article Styling */
+.basic{
+  width: 95%;
+  clear: both;
+}
+.basic p{
+  width: 75%;
+  padding: 2%;
+  border-radius: 5px;
+  color: white;
+  background-color: grey;
+  float: right;
+  font-weight: lighter;
+}
+.basic img{
+  width: 15%;
+  float: left;
+  margin-right: .1em;
+}
+  /* Icon Holder Styling */
+.icons{
+  width: 85%;
+  margin-left: 20%;
+}
+.iconHolder{
+  width: 6em;
+  height: 6em;
+  margin: .2em .5em .5em .5em;
+  float: left;
+}
+.iconHolder img{
+  width: 3em;
+  margin-left: 30%;
+}
+.iconHolder img, .iconHolder h3, .iconHolder h4{
+  margin-top: .2em;
+  margin-bottom: .2em;
+  text-align: center;
+  display: block;
+}
+/* Footer */
+footer{
+  text-align: center;
+  font-size: .8em;
+  padding: 2em 0;
+  clear: both;
+}
+footer img{
+  width: 50%;
+}
+
+}
