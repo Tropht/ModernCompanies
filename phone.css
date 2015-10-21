@@ -31,6 +31,9 @@ header img{
   display: none;
 }
 /* Main Content */
+main{
+  overflow-x: hidden;
+}
 article{
   margin: 10px auto;
   float: left;
@@ -71,10 +74,14 @@ section h2{
   float: left;
   margin-right: .1em;
 }
+.basic h3{
+  margin: 5% 0 0 45%;
+  position: absolute;
+}
   /* Icon Holder Styling */
 .icons{
   width: 85%;
-  margin-left: 20%;
+  margin-left: 15%;
 }
 .iconHolder{
   width: 6em;
